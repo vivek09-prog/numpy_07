@@ -8,7 +8,7 @@ arr1 = np.array([[67 ,26 ,27 ,69],
 [78, 47, 81 ,68],
 [55 ,98, 44 ,33],
 [52 ,55 ,96 ,51],
-[65 ,81,74 , 92]])
+[65 ,81 ,74 , 92]])
 
 mean = np.mean(arr1)
 print(mean)
@@ -27,6 +27,12 @@ print(std2)
 var = np.var(arr1)
 print(var)
 
+# minimm and maximum
 mima = np.min(arr1) , np.max(arr1)
 print(mima)
 
+# Argmax & Argmin
+# argma = np.argmax(arr1.flatten())
+# print(argma)
+argmi = np.argmin(arr1,axis=0)
+print(argmi)
